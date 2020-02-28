@@ -1,0 +1,17 @@
+\begin{thebibliography}{1}
+
+\bibitem{Boyer2010}
+Frederic Boyer, Mathieu Porez, and Alban Leroyer.
+\newblock {\em {Poincar{\'{e}}-cosserat equations for the lighthill
+  three-dimensional large amplitude elongated body theory: Application to
+  robotics}}, volume~20.
+\newblock 2010.
+
+\bibitem{Simo1986}
+J.~C. Simo and L.~Vu-Quoc.
+\newblock {A three-dimensional finite-strain rod model. part II: Computational
+  aspects}.
+\newblock {\em Computer Methods in Applied Mechanics and Engineering},
+  58(1):79--116, 1986.
+
+\end{thebibliography}

@@ -1,10 +1,16 @@
-%!TEX root = C:/Users/s118759/Google Drive/PHD/ThesisMain/main.tex
+%!TEX root = C:\Users\s118759\Documents\GitHub\ThesisSoftRobotics\main.tex
 %%%%%%% PHD THESIS CLASS FOR LATEX %%%%%%%
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{phd}[2014/08/16 Example LaTeX class]
 %%%%%%% MAIN CLASS %%%%%%%
 \LoadClass[11pt,openright]{report}
 \newcommand{\headlinecolor}{\normalcolor}
+
+%%%%%% EQUATION ALIGNMENT %%%%%%%
+\PassOptionsToPackage{fleqn}{amsmath}
+% \makeatletter
+% \setlength{\@mathmargin}{50pt}
+% \makeatother
 
 %%%%%%% LOAD PACKAGES %%%%%%%
 \RequirePackage{xcolor}
@@ -16,24 +22,35 @@
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
 \RequirePackage{amsthm}
+\RequirePackage{chapterbib}   
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[english]{babel}
 \RequirePackage[explicit]{titlesec}
-%\RequirePackage{lipsum}
+\RequirePackage{lipsum}
 \RequirePackage{lettrine}
 \RequirePackage{type1cm}
 \RequirePackage[DIV=11,BCOR=2mm,headinclude=true,footinclude=false]{typearea}
 \definecolor{slcolor}{HTML}{882B21}
- 
-\renewcommand{\baselinestretch}{1.175}
 
-%\makeatletter
-\renewcommand*\env@matrix[1][\arraystretch]{%
-  \edef\arraystretch{#1}%
-  \hskip -\arraycolsep
-  \let\@ifnextchar\new@ifnextchar
-  \array{*\c@MaxMatrixCols c}}
-%\makeatother
+\RequirePackage[final,bookmarks]{hyperref}
+\hypersetup{
+    pdftitle={Bla},
+    colorlinks= true,
+    linkcolor={blue},
+    citecolor={blue!50!black},
+    urlcolor={green!50!black}}
+
+ 
+\renewcommand{\baselinestretch}{1.15}
+
+% \makeatletter
+% \renewcommand*\env@matrix[1][\arraystretch]{%
+%   \edef\arraystretch{#1}%
+%   \hskip -\arraycolsep
+%   \let\@ifnextchar\new@ifnextchar
+%   \array{*\c@MaxMatrixCols c}}
+% \makeatother
+
  %%%%%%% MATH OPERATORS %%%%%%%
 \newtheorem{theorem}{Theorem}[chapter]
 \newtheorem{corollary}{Corollary}[chapter]
@@ -94,6 +111,7 @@ promotiecommissie is als volgt: \\
 \newcommand{\Ph}{\mathbb{E}}
 \newcommand{\tr}{\top}
 \newcommand{\ad}{\text{ad}}
+\newcommand{\p}{\partial}
 
 \DeclareMathOperator{\sech}{sech}
 \DeclareMathOperator{\csch}{csch}
@@ -109,7 +127,6 @@ promotiecommissie is als volgt: \\
 \newcommand{\SO}[1]{{\mathbb{SO}(#1)}}
 \newcommand{\SE}[1]{{\mathbb{SE}(#1)}}
 \newcommand{\Id}[1]{{\mathbb{I}^#1}}
-
 %\newcommand{\mat}[1]{\boldsymbol{#1}}
 %\renewcommand{\vec}[1]{\boldsymbol{#1}}
 %\newcommand{\Rotlin}[1]{^{#1}\hat{\boldsymbol{\Phi}}

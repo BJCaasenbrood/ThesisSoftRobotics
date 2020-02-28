@@ -1,0 +1,36 @@
+%!TEX root = C:\Users\s118759\Documents\GitHub\ThesisSoftRobotics\main.tex
+\newpage
+\section{Dynamics through Hamilton's variational principle}
+In this section, we derive the dynamical model of the soft robot through Hamilton's variational principle. The principle states that the time evolution of a state vector $q(t)$ between two state instances $q_1 = q(t_1)$ and $q_2 = q(t_2)$ over a fixed time interval $[t_1,t_2]$ is a stationary point regarding the action functional, $\mathcal{S} = \int_{t_1}^{t_2} \mathcal{L}(\vec{q},\dot{q},t) \; dt$ with $\mathcal{L}(\vec{q},\dot{\vec{q}}) := \mathcal{T}(\vec{q},\dot{\vec{q}}) - \mathcal{V}(\vec{q})$ the Lagrangian. The extension of Hamilton's principle \cite{Boyer2010} also considers external potential contributions, and can be formally written as
+\begin{equation}
+\delta(\mathcal{S}) = \int_{t_0}^{t_1} \left[\delta(\mathcal{T}) - \delta(\mathcal{V}) + \delta(\mathcal{W}_{ex}) \right]\; dt = 0,
+\end{equation}
+
+\noindent where the operator $\delta(\cdot)$ denotes any variation applied along the trajectory of the system that are fixed at the boundaries of $[t_0,t_1]$, and $\mathcal{W}_{ex}$ is the external virtual work produced by nonconservative external forces to the dynamical system. First, the kinetic energy of the soft robot is defined as 
+\begin{equation}
+\mathcal{T} := \frac{1}{2}\int_{\mathcal{X}} \vec{\eta}^\tr \mathcal{M} \vec{\eta}\;d\sigma, \label{eq:c2_Tfunc} 
+\end{equation}
+\noindent where $\mathcal{M} \in \R^{6\times6}$ is a the inertia tensors whose components correspond to the mass and moment of inertias. Then, the variation of the kinetic energy function is given by
+\begin{align}
+\delta(\mathcal{T}) & = \left. \frac{\p }{\p a} \mathcal{T}(\vec{\eta} + a \delta(\vec{\eta})) \right|_{a = 0}, \notag \\
+& = \frac{1}{2} \int_{\mathcal{X}} \delta(\vec{\eta})^\tr \mathcal{M} \vec{\eta} + \vec{\eta}^\tr \mathcal{M} \delta(\vec{\eta}) \; d\sigma, \notag \\
+& = \int_{\mathcal{X}} \delta(\vec{\eta})^\tr \mathcal{M} \vec{\eta} \; d\sigma, \label{eq:c2_varham_T}
+\end{align}
+
+\noindent Recalling the commutativity of the Lie algebra, we can express the variation as $\delta(\vec{\eta}) = \dot{\vec{\epsilon}} + \ad_{\vec{\eta}} \vec{\epsilon}$. Therefore, substitution into \eqref{eq:c2_varham_T} and followed by integration by parts leads to 
+\begin{align}
+\int_{t_1}^{t_2} \delta(\mathcal{T}) \; dt& = 
+\left[ \int_\mathcal{X} \vec{\epsilon}^\tr \mat{M} \vec{\eta} \right]_{t_0}^{t_1} +  \int_{t_1}^{t_2} \!\! \int_\mathcal{X}  \vec{\epsilon}^\tr \! \left( M\dot{\vec{\eta}} - \ad_{\vec{\eta}}^\tr \! M \vec{\eta}\right)\; d\sigma dt\label{eq:c2_varham_T2}.
+\end{align}
+Since the variations are fixed at the boundaries of $[t_0,t_1]$, the first right hand part in \eqref{eq:c2_varham_T2} vanishes. 
+
+The internal strain energy of the soft robot is defined as{}
+\begin{equation}
+\mathcal{V}_{in} := \frac{1}{2}\int_\mathcal{X} \vec{\xi}^\tr\! \vec{\Lambda} \;d\sigma.
+\end{equation}
+
+where $\vec{\Lambda} \in \R^6$ is the vector field representing the internal forces of the stress resultants over the continuum body. These internal force vector field and the strains vector field are related through a material constitutive law. In general concerning soft robotic applications, the use of linear constitutive relations for an isotropic elastic material are not sufficient, since large deformations introduce nonlinear material behavior. However, for the sake of simplicity, we consider the simplest viscoelastic constitutive model - the Kelvin-Voigt model. The Kelvin-Voigt model is a linear elasticity model with a linear viscous contribution that is proportional to the rate of strain $\vec{\xi}$, 
+\begin{equation}
+\vec{\Lambda} = \mat{K}\vec{\xi} + \mat{\Gamma} \dot{\vec{\xi}}
+\end{equation}
+where $\mat{K}$ and $\mat{\Gamma}$ are the elasticity and viscosity material tensor, respectively.
