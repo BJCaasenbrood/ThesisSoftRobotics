@@ -1,12 +1,12 @@
 %!TEX root = C:\Users\s118759\Documents\GitHub\ThesisSoftRobotics\main.tex
 \newpage
 \section{Dynamics through Hamilton's variational principle}
-In this section, we derive the dynamical model of the soft robot through Hamilton's variational principle. The principle states that the time evolution of a state vector $q(t)$ between two state instances $q_1 = q(t_1)$ and $q_2 = q(t_2)$ over a fixed time interval $[t_1,t_2]$ is a stationary point regarding the action functional, $\mathcal{S} = \int_{t_1}^{t_2} \mathcal{L}(\vec{q},\dot{q},t) \; dt$ with $\mathcal{L}(\vec{q},\dot{\vec{q}}) := \mathcal{T}(\vec{q},\dot{\vec{q}}) - \mathcal{V}(\vec{q})$ the Lagrangian. The extension of Hamilton's principle \cite{Boyer2010} also considers external potential contributions, and can be formally written as
+In this section, we derive the dynamical model of the soft robot through Hamilton's variational principle. The principle states that the time evolution of a state vector $q(t)$ between two state instances $q_1 = q(t_1)$ and $q_2 = q(t_2)$ over a fixed time interval $[t_1,t_2]$ is a stationary point regarding an action functional, $\mathcal{S} = \int_{t_1}^{t_2} \mathcal{L}(\vec{q},\dot{q},t) \; dt$ in which $\mathcal{L}(\vec{q},\dot{\vec{q}}) := \mathcal{T}(\vec{q},\dot{\vec{q}}) - \mathcal{V}(\vec{q})$ is the Lagrangian. The extension of Hamilton's principle \cite{Boyer2010} also considers external potential contributions, and can be formally written as
 \begin{equation}
 \delta(\mathcal{S}) = \int_{t_0}^{t_1} \left[\delta(\mathcal{T}) - \delta(\mathcal{V}) + \delta(\mathcal{W}_{ex}) \right]\; dt = 0,
 \end{equation}
 
-\noindent where the operator $\delta(\cdot)$ denotes any variation applied along the trajectory of the system that are fixed at the boundaries of $[t_0,t_1]$, and $\mathcal{W}_{ex}$ is the external virtual work produced by nonconservative external forces to the dynamical system. First, the kinetic energy of the soft robot is defined as 
+\noindent where the operator $\delta(\cdot)$ denotes a variation applied along the trajectory of the system that are fixed at the boundaries of $[t_0,t_1]$, and $\mathcal{W}_{ex}$ is the external virtual work produced by nonconservative external forces to the dynamical system. First, the kinetic energy of the soft robot is defined as 
 \begin{equation}
 \mathcal{T} := \frac{1}{2}\int_{\mathcal{X}} \vec{\eta}^\tr \mathcal{M} \vec{\eta}\;d\sigma, \label{eq:c2_Tfunc} 
 \end{equation}
