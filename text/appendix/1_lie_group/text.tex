@@ -1,0 +1,14 @@
+%!TEX root = C:\Users\s118759\Documents\GitHub\ThesisSoftRobotics\main.tex
+\chapter{Fundamentals on \\ \vspace{5mm} Lie Group Theory}
+In this chapter, we will discuss the fundamentals on Lie groups and their associated Lie algebras.
+
+\section{Lie group}
+A Lie group encompasses the concepts of `group' and `smooth manifold' in a unique embodiment. To be more specific, the Lie Group $\G$ is a smooth manifold whose elements satisfy the group axioms:
+\begin{enumerate}
+\item Closure: if $g_1,g_2 \in \G$, then $g_1g_2$ is also an element of $\G$,
+\item Identity: there exists an element $e$ such that $g e = e g = g$ for any $g \in G$,
+\item Inversion: For any $g \in \G$, there exists an element $g^{-1} \in \G$ such that $g g^{-1} = g^{-1}g = e$,
+\item Associativity: $(g_1 g_2) g_3 = g_1 (g_2 g_3)$ for any $g_1,g_2,g_3 \in \G$.
+\end{enumerate}
+
+The smoothness of the Lie groups intuitively suggests the existence of useful differential geometries. For any elements $g$ on the smooth manifold $\G$, there exists a tangent linear space denoted by $T_{g} \mathcal{G}$. The tangent space of the Lie group at the identity element $e$ is referred to as the associative Lie algebra $\g$ of the group. it allows us to perform algebra computation concerning the Lie group.

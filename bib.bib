@@ -1,63 +1,120 @@
-@article{Spong2006,
-author = {Spong, Mark W. and Hutchinson, Seth and Vidyasagar, M.},
-doi = {10.1109/MCS.2006.252815},
-isbn = {0471649902},
-issn = {1066033X},
-journal = {IEEE Control Systems},
-number = {6},
-pages = {113--115},
-pmid = {8536973},
-title = {{Robot modeling and control}},
-volume = {26},
-year = {2006}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% DYNAMICS OF SOFT ROBOTICS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% book on robotics modeling
+@book{Spong2006,
+	address = {New York},
+	title = {Robot modeling and control},
+	isbn = {9780471649908},
+	publisher = {John Wiley \& Sons},
+	author = {Spong, Mark W. and Hutchinson, Seth and Vidyasagar, M.},
+	year = {2006},
+	keywords = {Robots, Control systems, Robots, Dynamics, Robotics}
 }
 
+% multi-body notation in Lie groups
 @article{Traversaro2016,
-author = {Traversaro, Silvio and Saccon, Alessandro},
-title = {{Multibody Dynamics Notation}},
-year = {2016}
+	author = {Traversaro, Silvio and Saccon, Alessandro},
+	title = {{Multibody Dynamics Notation}},
+	year = {2016}
 }
 
-@book{MurrayRichardMZexiangLi1994,
-archivePrefix = {arXiv},
-arxivId = {arXiv:1011.1669v3},
-author = {{Murray, Richard M, Zexiang Li}, S.Shankar Sastry},
-booktitle = {Journal of Chemical Information and Modeling},
-doi = {10.1017/CBO9781107415324.004},
-eprint = {arXiv:1011.1669v3},
-isbn = {9788578110796},
-issn = {1098-6596},
-keywords = {icle},
-number = {9},
-pmid = {25246403},
-title = {{A Mathematical Introduction to Robotic Manipulation}},
-volume = {53},
-year = {1994}
+% mathematical model robotics with group theory
+@book{Murray1994,
+	title = {A mathematical introduction to robotic manipulation},
+	isbn = {9781315136370 9781351469791},
+	url = {http://search.ebscohost.com/login.aspx?direct=true&scope=site&db=nlebk&db=nlabk&AN=1662943},
+	language = {English},
+	urldate = {2020-04-17},
+	author = {Murray, Richard M and Li, Zexiang and Sastry, Shankar},
+	year = {1994}
 }
 
+% first models on Cosserat beams
 @article{Simo1986,
-author = {Simo, J. C. and Vu-Quoc, L.},
-doi = {10.1016/0045-7825(86)90079-4},
-issn = {00457825},
-journal = {Computer Methods in Applied Mechanics and Engineering},
-number = {1},
-pages = {79--116},
-title = {{A three-dimensional finite-strain rod model. part II: Computational aspects}},
-volume = {58},
-year = {1986}
+	author = {Simo, J. C. and Vu-Quoc, L.},
+	doi = {10.1016/0045-7825(86)90079-4},
+	issn = {00457825},
+	journal = {Computer Methods in Applied Mechanics and Engineering},
+	number = {1},
+	pages = {79--116},
+	title = {{A three-dimensional finite-strain rod model. part II: Computational aspects}},
+	volume = {58},
+	year = {1986}
 }
 
+% point-care equations for eel-robotics
 @article{Boyer2010,
-author = {Boyer, Frederic and Porez, Mathieu and Leroyer, Alban},
-booktitle = {Journal of Nonlinear Science},
-doi = {10.1007/s00332-009-9050-5},
-file = {:C$\backslash$:/Users/s118759/Google Drive/PHD/references{\_}papers/Boyer2010{\_}Article{\_}Poincar{\'{e}}CosseratEquationsForTh.pdf:pdf},
-isbn = {0033200990505},
-issn = {09388974},
-keywords = {Eel-like robots,Hyper-redundant locomotion,Lagrangian reduction,Lie groups,Poincar{\'{e}}-Cosserat equations,Swimming dynamics},
+	author = {Boyer, Frederic and Porez, Mathieu and Leroyer, Alban},
+	booktitle = {Journal of Nonlinear Science},
+	doi = {10.1007/s00332-009-9050-5},
+	isbn = {0033200990505},
+	issn = {09388974},
+	keywords = {Eel-like robots,Hyper-redundant locomotion,Lagrangian reduction,Lie groups,Poincar{\'{e}}-Cosserat equations,Swimming dynamics},
+	number = {1},
+	pages = {47--79},
+	title = {{Poincar{\'{e}}-cosserat equations for the lighthill three-dimensional large amplitude elongated body theory: Application to robotics}},
+	volume = {20},
+	year = {2010}
+}
+
+% recursive inverse-dynamics for linked robotics
+@book{Featherstone1987,
+	address = {Boston, MA},
+	title = {Rigid body dynamics algorithms},
+	isbn = {9780387743141 9780387743158},
+	publisher = {Springer},
+	author = {Featherstone, Roy},
+	year = {1987},
+	keywords = {Dynamics, Rigid, Recursive functions, Robots, Dynamics}
+}
+
+@article{Caasenbrood2006,
+	author = {Caasenbrood, Brandon and Pogromsky, Alexander and Nijmeijer, Henk},
+	journal = {IFAC Proceedings Volumes (IFAC-PapersOnline)},
+	keywords = {modeling,robotics technology,robots manipulators},
+	title = {{Dynamic modeling of hyper-elastic soft robots using spatial curves}},
+	year = {2020 (accepted)}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CONTROL OF SOFT ROBOTICS  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% energy-based control for 
+@article{Fantoni2000,
+	author = {Fantoni, Isabelle and Lozano, Rogelio and Spong, Mark W.},
+	doi = {10.1109/9.847110},
+	issn = {00189286},
+	journal = {IEEE Transactions on Automatic Control},
+	number = {4},
+	pages = {725--729},
+	title = {{Energy based control of the Pendubot}},
+	volume = {45},
+	year = {2000}
+}
+
+
+@article{Santina2019,
+author = {Santina, Cosimo Della and Pallottino, Lucia and Rus, Daniela and Bicchi, Antonio},
+doi = {10.1109/LRA.2019.2907412},
+file = {:C\:/Users/s118759/Google Drive/PHD/references_papers/00_main.pdf:pdf},
+issn = {23773766},
+journal = {IEEE Robotics and Automation Letters},
+keywords = {Modeling,and learning for soft robots,control,motion control,natural machine motion,redundant robots,soft robot applications},
+number = {3},
+pages = {2508--2515},
+title = {{Exact Task Execution in Highly Under-Actuated Soft Limbs: An Operational Space Based Approach}},
+volume = {4},
+year = {2019}
+}
+
+@article{Khatib1987,
+author = {Khatib, Oussama},
+journal = {IEEE International Conference on Robotics and Automation},
 number = {1},
-pages = {47--79},
-title = {{Poincar{\'{e}}-cosserat equations for the lighthill three-dimensional large amplitude elongated body theory: Application to robotics}},
-volume = {20},
-year = {2010}
+title = {{A Unified Approach for Motion and Force Control}},
+volume = {3},
+year = {1987}
 }

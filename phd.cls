@@ -19,12 +19,14 @@
 \RequirePackage{float}
 \RequirePackage{pgfplots}
 \RequirePackage{grffile}
+\RequirePackage{mathtools}
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
 \RequirePackage{amsthm}
 \RequirePackage{chapterbib}   
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[english]{babel}
+\RequirePackage{natbib}
 \RequirePackage[explicit]{titlesec}
 \RequirePackage{lipsum}
 \RequirePackage{lettrine}
@@ -102,6 +104,12 @@ promotiecommissie is als volgt: \\
 }
 
 %%%%%%% MATH OPERATORS %%%%%%%
+\newcommand{\M}{\mathcal{M}}
+\newcommand{\Lg}{\mathcal{V}}
+\newcommand{\G}{\mathcal{G}}
+\newcommand{\g}{\mathfrak{g}}
+\newcommand{\V}{\mathcal{V}}
+\newcommand{\T}{\mathcal{T}}
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\C}{\mathbb{C}}
@@ -110,15 +118,29 @@ promotiecommissie is als volgt: \\
 \newcommand{\q}{\boldsymbol{q}}
 \newcommand{\Ph}{\mathbb{E}}
 \newcommand{\tr}{\top}
-\newcommand{\ad}{\text{ad}}
+\newcommand{\ad}{\textnormal{ad}}
+\newcommand{\Ad}{\textnormal{Ad}}
 \newcommand{\p}{\partial}
+\newcommand{\rank}{\textnormal{rank}}
+\newcommand{\col}{\textnormal{col}}
+\newcommand{\row}{\textnormal{row}}
+\newcommand{\pinv}{+}
+\newcommand{\ginv}{{g} }
+\newcommand{\pinvt}{{+\top} }
+
+% \DeclarePairedDelimiterX{\infdivx}[2]{(}{)}{%
+%   #1\;\delimsize\|\;#2%
+% }
+% \newcommand{\infdiv}{D\infdivx}
+\DeclarePairedDelimiterX{\norm}[1]{\lVert}{\rVert}{#1}
+\DeclarePairedDelimiterX{\norms}[1]{\lVert}{\rVert^2}{#1}
+\DeclarePairedDelimiterX{\bk}[1]{(}{)}{#1}
 
 \DeclareMathOperator{\sech}{sech}
 \DeclareMathOperator{\csch}{csch}
-\DeclareMathOperator{\pinv}{^\dagger}
 \DeclareMathOperator{\inv}{^{-1}}
 \DeclareMathOperator{\Rp}{\R_{\ge 0}}
-\DeclareMathOperator{\Rsp}{\R_{<0}}
+\DeclareMathOperator{\Rsp}{\R_{>0}}
 \newcommand{\Rot}[1]{^{#1}\boldsymbol{\Phi}}
 \renewcommand{\vec}[1]{{#1}}
 \newcommand{\mat}[1]{{#1}}
@@ -131,6 +153,7 @@ promotiecommissie is als volgt: \\
 %\renewcommand{\vec}[1]{\boldsymbol{#1}}
 %\newcommand{\Rotlin}[1]{^{#1}\hat{\boldsymbol{\Phi}}
 \newcommand{\base}[2]{^{#1}{#2}}
+\newcommand{\blkdiag}[1]{\textnormal{blkdiag}\left\{ {#1} \right\}}
 
 %%%%%%% FIGURE SIZES %%%%%%%
 \newcommand*{\smallfig}{0.5\textwidth}
