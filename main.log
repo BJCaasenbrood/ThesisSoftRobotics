@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.12.18)  28 FEB 2020 11:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.12.18)  1 JUN 2020 12:07
 entering extended mode
-**./main.tex
-(main.tex
+**C:/Users/s118759/Documents/GitHub/ThesisSoftRobotics/main.tex
+(C:/Users/s118759/Documents/GitHub/ThesisSoftRobotics/main.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
 (phd.cls
@@ -534,6 +534,12 @@ Package grffile Info: Option `extendedchars' is set to `false'.
 Package grffile Info: Option `space' is set to `true'.
 Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty"
+Package: mathtools 2017/10/30 v1.20 mathematical typesetting tools
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty"
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip46
@@ -592,6 +598,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count133
+\l_MT_multwidth_dim=\dimen178
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen179
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen180
+\l_MT_above_intertext_sep=\dimen181
+\l_MT_below_intertext_sep=\dimen182
+\l_MT_above_shortintertext_sep=\dimen183
+\l_MT_below_shortintertext_sep=\dimen184
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
@@ -609,13 +629,13 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@headfont=\toks42
 \thm@notefont=\toks43
 \thm@headpunct=\toks44
-\thm@preskip=\skip49
-\thm@postskip=\skip50
-\thm@headsep=\skip51
+\thm@preskip=\skip50
+\thm@postskip=\skip51
+\thm@headsep=\skip52
 \dth@everypar=\toks45
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cite\chapterbib.sty"
-\c@inputfile=\count133
+\c@inputfile=\count134
 Package: chapterbib 2010/09/18  v 1.17
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
@@ -951,56 +971,63 @@ Language: english 2017/01/24 v3.3q English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2017/05/19 3.10 Babel common definitions
-\babel@savecnt=\count134
-\U@D=\dimen178
+\babel@savecnt=\count135
+\U@D=\dimen185
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip53
+\bibsep=\skip54
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count136
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box44
-\beforetitleunit=\skip52
-\aftertitleunit=\skip53
-\ttl@plus=\dimen179
-\ttl@minus=\dimen180
+\beforetitleunit=\skip55
+\aftertitleunit=\skip56
+\ttl@plus=\dimen186
+\ttl@minus=\dimen187
 \ttl@toksa=\toks48
-\titlewidth=\dimen181
-\titlewidthlast=\dimen182
-\titlewidthfirst=\dimen183
+\titlewidth=\dimen188
+\titlewidthlast=\dimen189
+\titlewidthfirst=\dimen190
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count135
+\c@lips@count=\count137
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lettrine\lettrine.sty"
 File: lettrine.sty 2018/07/31 v2.01 (Daniel Flipo)
-\c@DefaultLines=\count136
-\c@DefaultDepth=\count137
-\DefaultFindent=\dimen184
-\DefaultNindent=\dimen185
-\DefaultSlope=\dimen186
-\DiscardVskip=\dimen187
+\c@DefaultLines=\count138
+\c@DefaultDepth=\count139
+\DefaultFindent=\dimen191
+\DefaultNindent=\dimen192
+\DefaultSlope=\dimen193
+\DiscardVskip=\dimen194
 \L@lbox=\box45
 \L@tbox=\box46
-\c@L@lines=\count138
-\c@L@depth=\count139
-\L@Pindent=\dimen188
-\L@Findent=\dimen189
-\L@Nindent=\dimen190
-\L@lraise=\dimen191
-\L@first=\dimen192
-\L@next=\dimen193
-\L@slope=\dimen194
-\L@height=\dimen195
-\L@novskip=\dimen196
-\L@target@ht=\dimen197
-\L@target@dp=\dimen198
-\L@target@tht=\dimen199
-\LettrineWidth=\dimen256
-\LettrineHeight=\dimen257
-\LettrineDepth=\dimen258
+\c@L@lines=\count140
+\c@L@depth=\count141
+\L@Pindent=\dimen195
+\L@Findent=\dimen196
+\L@Nindent=\dimen197
+\L@lraise=\dimen198
+\L@first=\dimen199
+\L@next=\dimen256
+\L@slope=\dimen257
+\L@height=\dimen258
+\L@novskip=\dimen259
+\L@target@ht=\dimen260
+\L@target@dp=\dimen261
+\L@target@tht=\dimen262
+\LettrineWidth=\dimen263
+\LettrineHeight=\dimen264
+\LettrineDepth=\dimen265
 
 Loading lettrine.cfg
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lettrine\lettrine.cfg"))
@@ -1022,12 +1049,12 @@ basics and keyval usage)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
 Package: scrlfile 2017/09/07 v3.24 KOMA-Script package (loading files)
 )))
-\ta@bcor=\skip54
-\ta@div=\count140
-\ta@hblk=\skip55
-\ta@vblk=\skip56
-\ta@temp=\skip57
-\footheight=\skip58
+\ta@bcor=\skip57
+\ta@div=\count142
+\ta@hblk=\skip58
+\ta@vblk=\skip59
+\ta@temp=\skip60
+\footheight=\skip61
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 11
 (typearea)             BCOR = 5.69054pt
@@ -1086,16 +1113,16 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen259
-\Hy@linkcounter=\count141
-\Hy@pagecounter=\count142
+\@linkdim=\dimen266
+\Hy@linkcounter=\count143
+\Hy@pagecounter=\count144
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count143
+\Hy@SavedSpaceFactor=\count145
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1109,17 +1136,17 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count144
+\c@Hy@tempcnt=\count146
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
-\XeTeXLinkMargin=\dimen260
-\Fld@menulength=\count145
-\Field@Width=\dimen261
-\Fld@charsize=\dimen262
+\XeTeXLinkMargin=\dimen267
+\Fld@menulength=\count147
+\Field@Width=\dimen268
+\Fld@charsize=\dimen269
 Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
@@ -1129,39 +1156,39 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count146
-\c@Item=\count147
-\c@Hfootnote=\count148
+\Hy@abspage=\count148
+\c@Item=\count149
+\c@Hfootnote=\count150
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count149
-\c@bookmark@seq@number=\count150
+\Fld@listcount=\count151
+\c@bookmark@seq@number=\count152
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip59
+\Hy@SectionHShift=\skip62
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 41.
-\c@theorem=\count151
-\c@corollary=\count152
-\c@lemma=\count153
-\c@intermezzo=\count154
-\c@definition=\count155
+Package hyperref Info: Option `colorlinks' set `true' on input line 43.
+\c@theorem=\count153
+\c@corollary=\count154
+\c@lemma=\count155
+\c@intermezzo=\count156
+\c@definition=\count157
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.meta.c
 ode.tex"
 File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
-\pgfarrowinset=\dimen263
-\pgfarrowlength=\dimen264
-\pgfarrowwidth=\dimen265
-\pgfarrowlinewidth=\dimen266
+\pgfarrowinset=\dimen270
+\pgfarrowlength=\dimen271
+\pgfarrowwidth=\dimen272
+\pgfarrowlinewidth=\dimen273
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgfplots\libs\tikzlibrarypgfplots.pat
 chplots.code.tex")) (main.aux)
@@ -1184,16 +1211,16 @@ LaTeX Font Info:    ... okay on input line 11.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count156
-\scratchdimen=\dimen267
+\scratchcounter=\count158
+\scratchdimen=\dimen274
 \scratchbox=\box47
-\nofMPsegments=\count157
-\nofMParguments=\count158
+\nofMPsegments=\count159
+\nofMParguments=\count160
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count159
-\MPscratchDim=\dimen268
-\MPnumerator=\count160
-\makeMPintoPDFobject=\count161
+\MPscratchCnt=\count161
+\MPscratchDim=\dimen275
+\MPnumerator=\count162
+\makeMPintoPDFobject=\count163
 \everyMPtoPDFconversion=\toks50
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1229,7 +1256,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count162
+\c@section@level=\count164
 )
 LaTeX Info: Redefining \ref on input line 11.
 LaTeX Info: Redefining \pageref on input line 11.
@@ -1245,47 +1272,52 @@ LaTeX Info: Redefining \nameref on input line 11.
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 [2
 
-]
-Chapter 1.
-(text/2_chap/1_liegroup/text.tex) (text/2_chap/2_config/text.tex)
-(text/2_chap/3_hamilton/text.tex [3
+] (text/appendix/1_lie_group/text.tex
+Appendix A.
 
-] [4]) (main.bbl [5]) [6
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\new@ifnextchar' on input line 2.
+
+) (main.bbl [3
+
+]) [4
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 26.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 26.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8F0C5A25E98E570F7EE76CA9A70D560B;298.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 26.
+(rerunfilecheck)             Checksum: BA6B7872FB47869480FE12E23E33E8E9;134.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
  ) 
 Here is how much of TeX's memory you used:
- 29544 strings out of 493323
- 695578 string characters out of 3139059
- 990062 words of memory out of 3000000
- 32528 multiletter control sequences out of 15000+200000
- 11346 words of font info for 42 fonts, out of 3000000 for 9000
+ 30359 strings out of 493323
+ 708466 string characters out of 3139059
+ 1005467 words of memory out of 3000000
+ 33338 multiletter control sequences out of 15000+200000
+ 12054 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 81i,11n,130p,1305b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 81i,7n,130p,840b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (6 pages, 168128 bytes).
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eufm10.pfb>
+Output written on main.pdf (4 pages, 131011 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 97 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 29 words of extra memory for PDF output out of 10000 (max. 10000000)
 
