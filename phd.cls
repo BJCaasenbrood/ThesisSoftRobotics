@@ -118,8 +118,8 @@ promotiecommissie is als volgt: \\
 \newcommand{\q}{\boldsymbol{q}}
 \newcommand{\Ph}{\mathbb{E}}
 \newcommand{\tr}{\top}
-\newcommand{\ad}{\textnormal{ad}}
-\newcommand{\Ad}{\textnormal{Ad}}
+\newcommand{\ad}{\text{ad}}
+\newcommand{\Ad}{\text{Ad}}
 \newcommand{\p}{\partial}
 \newcommand{\rank}{\textnormal{rank}}
 \newcommand{\col}{\textnormal{col}}
