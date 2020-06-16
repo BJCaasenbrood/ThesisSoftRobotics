@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.16)  16 JUN 2020 12:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.16)  16 JUN 2020 12:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -887,10 +887,12 @@ LaTeX Info: Redefining \nameref on input line 11.
 \openout4 = `main.out'.
 
 Chapter 1.
-(./text/3_chap/1_underact/text.tex) (./text/appendix/1_lie_group/text.tex [1
+(./text/3_chap/1_underact/text.tex) (./text/3_chap/2_dis_shp/text.tex) (./text/
+3_chap/3_part_fbk/text.tex [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./text/appendix/1_lie_gr
+oup/text.tex [2]
 Appendix A.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -900,7 +902,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\new@ifnextchar' on input line 2.
 
-) (./text/appendix/2_geometric_jacobian/text.tex [2
+) (./text/appendix/2_geometric_jacobian/text.tex [3
 
 ]
 
@@ -911,28 +913,28 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 3.
 
-) (/home/brandon/Documents/phd/thesis/ThesisSoftRobotics/main.bbl [3
+) (/home/brandon/Documents/phd/thesis/ThesisSoftRobotics/main.bbl [4
 
-]) [4
+]) [5
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 31.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 31.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
 (/home/brandon/Documents/phd/thesis/ThesisSoftRobotics/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 31.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 31.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 33.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D84D4F98741646E6662BB52A7B57D921;278.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 31.
+(rerunfilecheck)             Checksum: 942DED57B48E8016BD1FA3807C513EA9;420.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 33.
  ) 
 Here is how much of TeX's memory you used:
- 31709 strings out of 483183
- 743565 string characters out of 5966292
+ 31724 strings out of 483183
+ 743926 string characters out of 5966292
  1215119 words of memory out of 5000000
- 46105 multiletter control sequences out of 15000+600000
+ 46111 multiletter control sequences out of 15000+600000
  543861 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 86i,12n,140p,890b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,12n,140p,893b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -948,10 +950,10 @@ nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 >
 Output written on /home/brandon/Documents/phd/thesis/ThesisSoftRobotics/main.pd
-f (4 pages, 150479 bytes).
+f (5 pages, 152470 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -19,6 +19,7 @@
 % \end{definition}
 
 %\newpage
+\section{Underactuated system}
 Before addressing the controller synthesis, we briefly introduce the notion of under-actuated dynamical systems \cite{Tedrake2009,Santina2019,Spong1998,Spong1996}. 
 
 \begin{definition}[Under-actuated system]
@@ -33,12 +34,12 @@ is considered fully-actuated in a state $(q,\dot{q})$ at time $t$ if and only if
 a sufficient condition is $\rank \left(f_2(q,\dot{q},t)\right) < \dim(q)$.
 \end{definition}
 
-\noindent In other words, an under actuated dynamical system cannot steer its states in any arbitrary direction. As a consequence, under actuated systems are generally more difficult to control. By definition, a soft robotic system is an under-actuated system since they theoretically pose infinitely many degrees-of-freedom. Including the distributed control inputs to the Lagrangian model, we write the dynamics for a soft robotic system as follows
+\noindent In other words, an under actuated dynamical system cannot steer its states in any arbitrary direction. As a consequence, under actuated systems are generally more difficult to control. By definition, a soft robotic system is an under-actuated system since they theoretically posses infinitely many degrees-of-freedom. Including the distributed control inputs to the Lagrangian model, we write the dynamics for a soft robotic system as follows
 \begin{equation}
 M(q)\ddot{q} + c(q,\dot{q}) + g(q)= S^\top(q) u,
 \end{equation}
 
-\noindent where $M(q)$ is the positive definite mass matrix, $c(q,\dot{q})\in \R^{n}$ is a vector of Coriolis forces, $g(q)\in \R^{n}$ a vector of conservative potential forces, $S(q) \in \R^{n\times m}$ is a (nonlinear) mapping that projects the active control inputs onto the acceleration pace of ${q}$, and $u(t) \in \R^{m}$ is the lower-dimensional control input. Since the system is under-actuated, it shall be clear that $\dim(u) < \dim(q)$. In literature \cite{Santina2019}, the matrix $S$ is referred to as the synergy matrix whose columns describe actuation patterns of the soft robot's input space. Without loss of generality, let the synergy matrix $S$ be defined by a set of linearly independent column vectors of actuation patterns $s_i: \R^n \to \R^n$,
+\noindent where $M(q)$ is the positive definite mass matrix, $c(q,\dot{q})\in \R^{n}$ is a vector of Coriolis forces, $g(q)\in \R^{n}$ a vector of conservative potential forces, $S(q) \in \R^{n\times m}$ is a (nonlinear) mapping that projects the active control inputs onto the acceleration space of ${q}$, and $u(t) \in \R^{m}$ is the lower-dimensional control input. Since the system is under-actuated, it shall be clear that $\dim(u) < \dim(q)$. In some studies \cite{Santina2019}, the matrix $S$ is referred to as the synergy matrix whose columns describe actuation patterns of the soft robot's input space. Without loss of generality, let the synergy matrix $S$ be defined by a set of linearly independent column vectors of actuation patterns $s_i: \R^n \to \R^n$,
 \begin{align}
 S(q) := \left[\,s_1(q),\,s_2(q),\,...,\,s_m(q)\,\right], 
 \end{align}
