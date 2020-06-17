@@ -31,6 +31,8 @@
 \RequirePackage{lipsum}
 \RequirePackage{lettrine}
 \RequirePackage{type1cm}
+\RequirePackage{epstopdf}
+%\RequirePackage[outdir=./]{epstopdf}
 \RequirePackage[DIV=11,BCOR=2mm,headinclude=true,footinclude=false]{typearea}
 \definecolor{slcolor}{HTML}{882B21}
 
@@ -115,6 +117,7 @@ promotiecommissie is als volgt: \\
 \newcommand{\C}{\mathbb{C}}
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\E}{\mathbb{E}}
+\newcommand{\I}{{I}}
 \newcommand{\q}{\boldsymbol{q}}
 \newcommand{\Ph}{\mathbb{E}}
 \newcommand{\tr}{\top}
