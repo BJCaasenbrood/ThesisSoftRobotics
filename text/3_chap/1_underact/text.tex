@@ -1,4 +1,4 @@
-%!TEX root = /home/brandon/Documents/phd/thesis/ThesisSoftRobotics/main.tex
+%!TEX root = /home/brandon/Documents/phd/thesisSoftRobotics/main.tex
 
 % \section{Definitions}
 % The general class of the second-order dynamical system can be written as a system of differential equations of the form
@@ -27,14 +27,14 @@ A second-order dynamical system described by the partial differential equation
 \begin{equation}
 \ddot{q} = f(q,\dot{q},u,t)
 \end{equation}
-is considered fully-actuated in a state $(q,\dot{q})$ at time $t$ if and only if the map $f$ is surjective, i.e, for every $\ddot{q}(t)$ there exists a control input $u(t)$ such that the instantaneous acceleration is realizable. Otherwise, the dynamical system is said to be under-actuated. Regarding under-actuated systems in the control-affine form, that is,
+is considered fully-actuated in a state $(q,\dot{q})$ at time $t$ if and only if the map $f$ is surjective, i.e, for every $\ddot{q}(t)$ there exists a control input $u(t)$ such that the instantaneous acceleration is realizable. Otherwise, the dynamical system is said to be under-actuated. Regarding the control-affine form of underactuated systems, that is,
 \begin{equation}
 \ddot{q} = f_1(q,\dot{q},t) + f_2(q,\dot{q},t)u(t),
 \end{equation}
 a sufficient condition is $\rank \left(f_2(q,\dot{q},t)\right) < \dim(q)$.
 \end{definition}
 
-\noindent In other words, an under actuated dynamical system cannot steer its states in any arbitrary direction. As a consequence, under actuated systems are generally more difficult to control. By definition, a soft robotic system is an under-actuated system since they theoretically posses infinitely many degrees-of-freedom. Including the distributed control inputs to the Lagrangian model, we write the dynamics for a soft robotic system as follows
+\noindent In other words, an underactuated dynamical system cannot steer its states in any arbitrary direction. As a consequence, under actuated systems are generally more difficult to control. By definition, a soft robotic system is an under-actuated system since they theoretically posses infinitely many degrees-of-freedom. Including the distributed control inputs to the Lagrangian model, we write the dynamics for a soft robotic system as follows
 \begin{equation}
 M(q)\ddot{q} + c(q,\dot{q}) + g(q)= S_a^\top(q) \tau,
 \label{eq:under_actuated_ode}

@@ -1,4 +1,4 @@
-%!TEX root = C:\Users\s118759\Documents\GitHub\ThesisSoftRobotics\main.tex
+%!TEX root = /home/brandon/Documents/phd/thesis/thesisSoftRobotics/main.tex
 %%%%%%% PHD THESIS CLASS FOR LATEX %%%%%%%
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{phd}[2014/08/16 Example LaTeX class]
@@ -38,14 +38,13 @@
 
 \RequirePackage[final,bookmarks]{hyperref}
 \hypersetup{
-    pdftitle={Bla},
+    pdftitle={PHD THESIS},
     colorlinks= true,
     linkcolor={blue},
     citecolor={blue!50!black},
     urlcolor={green!50!black}}
 
- 
-\renewcommand{\baselinestretch}{1.15}
+\renewcommand{\baselinestretch}{1.2}
 
 % \makeatletter
 % \renewcommand*\env@matrix[1][\arraystretch]{%
