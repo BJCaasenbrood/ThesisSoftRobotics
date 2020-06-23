@@ -1,4 +1,7 @@
 \BOOKMARK [0][-]{chapter.1}{Dynamics of Soft Robots}{}% 1
-\BOOKMARK [0][-]{chapter.2}{Control of Soft Robots}{}% 2
-\BOOKMARK [1][-]{section.2.1}{Underactuated system}{chapter.2}% 3
-\BOOKMARK [1][-]{section.2.2}{Discontinuous shape functions}{chapter.2}% 4
+\BOOKMARK [1][-]{section.1.1}{Projection space}{chapter.1}% 2
+\BOOKMARK [0][-]{chapter.2}{Control of Soft Robots}{}% 3
+\BOOKMARK [1][-]{section.2.1}{Underactuated system}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.2}{Discontinuous shape functions}{chapter.2}% 5
+\BOOKMARK [0][-]{appendix.A}{Fundamentals on \0405mm Lie Group Theory}{}% 6
+\BOOKMARK [1][-]{section.A.1}{Lie group}{appendix.A}% 7
